@@ -47,7 +47,14 @@ Before you begin, ensure you have met the following requirements:
     ```bash
     npm install -g prisma
     ```
-
+4. **Generate Prisma Client**:
+    ```bash
+    npx prisma generate
+    ```
+5. **Run database migrations**:
+    ```bash
+    npx prisma migrate dev
+    ```
 
 ## Environment Variables
 
@@ -70,10 +77,19 @@ JWT_EXPIRATION_TIME=1d
 
 ## Running the Application
 - When you are done cloning and setting the required variables in the .env file you create, you can run the application by opening your terminal and naviagating to the project directory to run
-npm run start:dev
 
+  ```bash 
+  npm run start:dev
+  ```
+
+## GraphQL Playground
+- Navigate to the playground on your browser
+ http://localhost:PORT/graphql
 
 ## Running Test
-- Open your terminal and navigate to the project directory and run: npm run test
+- Open your terminal and navigate to the project directory and run: 
+  ```bash
+  npm run test
+  ```
 
 
