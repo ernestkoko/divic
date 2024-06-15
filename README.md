@@ -1,5 +1,8 @@
 # NestJS GraphQL Prisma PostgreSQL Project
 
+# GITHUB LINK 
+ `https://github.com/ernestkoko/divic`
+
 This project is a NestJS application with PostgreSQL as the database, Prisma as the ORM, and GraphQL for API communication or transportation layer. It includes a user model with biometric login capabilities.
 
 ## Table of Contents
