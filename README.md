@@ -86,7 +86,7 @@ JWT_EXPIRATION_TIME=1d
 - Navigate to the playground on your browser
  http://localhost:PORT/graphql
 
-## Running Test
+## Testing the Application
 - Open your terminal and navigate to the project directory and run: 
   ```bash
   npm run test
